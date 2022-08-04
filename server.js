@@ -12,6 +12,11 @@ app.get('/',(req,res)=>{
 });
 
 
+app.get('/',(req,res)=>{
+  res.send('Hello welcom to the show page!');
+})
+
+
 app.listen(port,()=>{
   console.log(`Listening on port ${port}`);
 })
